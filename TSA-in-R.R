@@ -12,6 +12,6 @@ plot(decomposition)
 
 par(mfrow=c(2,1))
 
-acf(series, lag.max=40, main="ACF")
-pacf(series, lag.max=40, main="PACF")
+acf(ts_data, lag.max=40, main="ACF")
+pacf(ts_data, lag.max=40, main="PACF")
 
